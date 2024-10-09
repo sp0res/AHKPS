@@ -85,7 +85,7 @@ return
 
 	Send {rbutton}
 
-	Sleep, 400
+	Sleep, 740
 	send {v}
 	WinWaitActive, Save, , 5
 
