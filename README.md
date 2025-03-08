@@ -26,8 +26,8 @@ To run the source scripts, make sure you have AHK v1 installed:
 
 ---
 
+###  📜 This project is open-source and free to use under the MIT License.  
 
-## 📜 This project is open-source and free to use under the MIT License.  
+#### 💡 *Feel free to contribute or suggest new features!* 🤝
 
-💡 *Feel free to contribute or suggest new features!* 🤝
 ---
