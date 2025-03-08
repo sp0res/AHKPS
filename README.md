@@ -2,9 +2,9 @@
 
 ### Some cool productivity shortcuts made with ahk.
 
-Not done, check comments for info.
+Work in progress.
 
-AHK (required) :
+AHK V1 :
 
 	https://www.autohotkey.com
 
