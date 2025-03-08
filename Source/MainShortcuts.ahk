@@ -13,7 +13,7 @@ TrayTip:="Main Shortcuts, Alt+Tab To Pause Desktop Shortcuts"
 Menu,Tray,Tip,%TrayTip%
 
 
-; click drag settings
+; Click drag settings
 swap := false
 horiz := false 				; use horizontal movement as input
 k := 1						; scroll speed coefficient (higher k means higher speed)
