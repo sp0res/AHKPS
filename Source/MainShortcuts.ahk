@@ -1,14 +1,17 @@
 ; Setup
-#SingleInstance force
-#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
-SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
+#Persistent
 
-; system tray
-TrayIconFile:="D:\Pictures\! Ico icons\silly.ico" ; set this to the file with the icon
+; Recommended for new scripts due to its superior speed and reliability.
+SendMode Input 
+
+; System tray
+TrayIconFile := "..\Images\sillycat.ico" ; Corrected relative path syntax
+
 Menu,Tray,Icon,%TrayIconFile%
 
-TrayTip:="Alt+Tab To Pause Desktop Shortcuts"
+TrayTip:="Main Shortcuts, Alt+Tab To Pause Desktop Shortcuts"
 Menu,Tray,Tip,%TrayTip%
+
 
 ; click drag settings
 swap := false
@@ -146,6 +149,6 @@ Return
 	Run, explorer.exe
 return
 
-; --------------------------------------------------------
-
 !Tab::Suspend  ; Alt+Tab
+
+; --------------------------------------------------------
